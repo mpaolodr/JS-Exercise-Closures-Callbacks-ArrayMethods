@@ -290,8 +290,7 @@ function counterMaker() {
   let count = 0;
 
   function counter() {
-    ++count;
-    return count - 1;
+    return count++;
   }
   return counter;
 
